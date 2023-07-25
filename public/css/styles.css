@@ -1,0 +1,339 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    margin: 0;
+    padding: 0;
+}
+.header, .navbar, .dropdown-menu
+{
+    background-color: #e6e6fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover
+{
+    background-color: #ccccff;
+}/*DELETE AAOVE STYLİNG*/
+.dropdown-item
+{
+    padding-top: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.navbar-collapse
+{
+    text-align: center;
+}
+ul.navbar-nav li.dropdown:hover> ul.dropdown-menu
+{
+    display: block;
+}
+.nav-item
+{
+    padding-top: 10px;
+    padding-left: 70px;
+    margin: 10px;
+    width: 100%;
+}
+a.nav-link
+{
+    padding: 0;
+    width: 100%;
+}
+footer.main-footer
+{
+    position: relative;
+    bottom: 0;
+    margin-top: 100px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #9457eb;
+}
+.col-sm-4, .col-md-4
+{
+    text-align: center;
+    padding: 0px 20px 0;
+    margin: 20px 0 0;
+    font-size: 15px;
+    float: right;
+}
+hr
+{
+    visibility: hidden;
+}
+h2
+{
+    text-align: center;
+    margin: 0;
+    padding: 40px 25px;
+    font-size: 50px;   
+}
+span
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+span.icon
+{
+    margin: 0;
+}
+/* styling the category NEW */
+.category:hover .choices {
+    opacity: 0.3;
+}
+.category:hover .middle {
+    opacity: 1;
+}
+.category {
+    position: relative;
+}
+.choices {
+    opacity: 1;
+    height: auto;
+    display: block;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.text {
+    color: black;
+    font-size: 36px;
+    padding: 16px 32px;
+}
+/*End of styling the categories NEW*/
+
+/*styling about us page*/
+div.aboutus
+{
+    padding-bottom: 10px;
+}
+h3
+{
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+h3:hover
+{
+    font-size: 30px;
+    color: #9457eb;
+}
+span.texts
+{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+.aboutus
+{
+    position: relative;
+    background-color: #ccccff;
+    border: 10px solid white;
+}
+.col-md-1
+{
+    width: 50%;
+    float: right;
+}
+.col-md-2
+{
+    float: left;
+    width: 50%;
+}
+.col-md-12
+{
+    margin-top: 50px;
+    width: 100%;
+    padding: 0;
+}
+/*end of styling about us page*/
+/*starts of styling posts create page */
+.btn-primary
+{
+    float: right;
+    margin-top: 100px;
+}
+textarea
+{
+    resize:vertical ;
+}
+#image
+{
+    padding-top: 20px;
+}
+.container
+{
+    font-size: 20px;
+    height: auto;
+}
+.container >.row >.container-fluid
+{
+    padding: 20px;
+}
+.text-md-end
+{
+    font-size: 20px;
+}
+.mb-3
+{
+    padding-top: 30px;
+}
+h1
+{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+}
+/*the end of styling posts create page */
+
+/*the start of styling posts show page */
+.row >.container-fluid>img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.comment
+{
+    color: green;
+    text-align: center;
+}
+p
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.btn-post
+{
+    background-color: #e6e6fa;
+    margin-top: 10px;
+}
+.button
+{
+    text-align: right;
+}
+input#phone
+{
+    margin-top: 20px;
+}
+.btn-post:hover
+{
+    background-color: #9457eb;
+}
+/*the end of styling posts create page */
+
+/*the start of styling adopting tips page */
+.w-100
+{
+    margin-bottom: 60px;
+}
+strong.tips
+{
+    font-size: 35px;
+    display: block;
+    margin-top: 10px 10px;
+}
+strong.tips:hover
+{
+    color: #9457eb;
+}
+h4
+{
+    margin-bottom: 50px;
+}
+/*the end of styling adopting tips page */
+.contact:hover  /* the number showing under the post*/
+{
+    color: green;
+}
+.contact
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.pagination
+{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.page-item.active .page-link
+{
+    background-color: #ccccff;
+}
+@media(min-width:992)
+{
+    .choices {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 300px;
+        height: 300px;
+      }
+}
+@media (min-width: 768px) and (max-width: 992px)
+{
+    .header, .navbar
+    {
+        float: left;
+    }
+    .nav-item
+    {
+        margin: 5px;
+        padding-left: 10px;
+    }
+    .col-md-4
+    {
+        padding: 20px 20px 0;
+        width: 100%;
+    }
+    /*centering an image*/
+    .choices {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+      }
+}
+@media (max-width:768px )
+{
+    hr
+    {
+        visibility: visible;
+        margin: 10px 50px;
+    }
+    .col-sm-12, footer.panel-footer
+    {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    /*centering an image*/
+    .choices {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:  350px;
+        height: 350px;
+      }
+}
